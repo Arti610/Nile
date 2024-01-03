@@ -465,6 +465,20 @@ h6 {
   background-size: cover;
   position: relative;
 }
+.abhero {
+  width: 100%;
+  height: 25vh;
+  background: url("/assets/img/aboutbg.jpg") top left;
+  background-size: cover;
+  position: relative;
+}
+.brhero {
+  width: 100%;
+  height: 25vh;
+  background: url("/assets/img/BRANDBG.jpg") top left;
+  background-size: cover;
+  position: relative;
+}
 
 #hero:before {
   content: "";
@@ -491,6 +505,12 @@ h6 {
 
 #hero h1 span {
   color: #106eea;
+}
+.abhero h1 {
+  color: #fff;
+}
+.brhero h1 {
+  color: #fff;
 }
 
 #hero h2 {
@@ -614,7 +634,7 @@ section {
   font-weight: 700;
 }
 
-.section-title h3 span {
+.section-title h3 {
   color: #106eea;
 }
 
@@ -913,7 +933,7 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #e2eefd;
-  padding: 80px 20px;
+  padding: 20px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
