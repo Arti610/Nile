@@ -1833,3 +1833,38 @@ section {
 }
 
 /* color:#106eea */
+
+
+.specs-table{
+  width: 100%;
+  margin-block:15px;
+  overflow: auto;
+}
+.complex-specs-table{
+  width: 100%;
+  margin-block:15px;
+  overflow: auto;
+}
+table, th, td {
+  border: 1px solid #b9b9b9;
+  border-collapse: collapse;
+  font-weight: 700;
+}
+thead{
+  background-color: #333333;
+  color: white;
+  text-align: center;
+
+}
+thead tr th{
+  padding: 10px;
+}
+
+tbody tr td{
+  padding: 10px;
+}
+
+.header-cell{
+  background-color: #333333;
+  color: white;
+}
